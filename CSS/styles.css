@@ -1,0 +1,217 @@
+inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body {
+  background-image: linear-gradient(lavender, pink, skyblue);
+}
+
+.logo {
+  padding: 1%;
+  text-align: center;
+  display: flex;
+}
+
+.content {
+  width: 500px;
+}
+
+.nav {
+  display: flex;
+  width: auto;
+  padding: 10px;
+  background-color: plum;
+}
+
+.nav a {
+  color: blue;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heroimg {
+  height: 200px;
+  padding: 25px;
+}
+
+
+.logo img {
+  padding: 20px;
+}
+
+.content img {
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+.content p {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  align-items: flex-end;
+}
+
+.logo h1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: midnightblue;
+  font-size: 3pc;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Examples h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: midnightblue;
+  font-size: 5pc;
+  font-family: fantasy;
+}
+
+.card {
+  display: inline-flex;
+  background-color: grey;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Examples {
+  transform: translateY(-40%);
+}
+
+.box {
+  display: flex;
+  float: inline-start; 
+  background-color: grey;
+  height: 300px;
+  width: 300px;
+  transform: translate(150%, -160%);
+  align-content: center;
+}
+
+<!--  My UX Skills section coded using CSS flex --
+
+.mySkills h2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: indigo;
+  font-size: 3pc;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.mySkills img {
+  float: left;
+  justify-content: left;
+  padding: 15px;
+}
+
+.mySkills h3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+  justify-content: center;
+}
+
+.mySkills p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.flexContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 5px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.mySkills h1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: indigo;
+  font-size: 3pc;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+    <!-- My Work Section Constructed using CSS Grid --
+
+.myWork {
+  flex-direction: rows; 
+  grid-area: workGrid;
+}
+.workGrid {
+  margin: 0px 5;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-areas: 
+    "TravelBound Artverse DOE"
+    ;
+}
+div#TravelBound {
+    grid-area: TravelBound;
+}
+
+div#Artverse {
+  grid-area: Artverse;
+}
+
+div#DOE {
+  grid-area: DOE;
+}
+
+.myWork p {
+  display: inline-block;
+  width: 30%;
+  align-items: center;
+}
+
+.myWork h4 {
+  display: flex;
+  color: slateblue;
+  font-size: 2pc;
+  text-align: center;
+}
+.myWork button {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.myWork h1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: darkslateblue;
+  font-size: 3pc;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600){
+  .myWork {
+    flex-direction: column; 
+    width: 100%;
+    grid-area: workGrid;
+  }
+
+  .workGrid {
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+       "TravelBound"
+       "Artverse"
+       "DOE"
+      ;
+  }
+}
