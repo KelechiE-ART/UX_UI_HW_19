@@ -113,17 +113,14 @@ body {
 }
 
 .mySkills h3 {
-  display: inline-block;
+  display: flex;
   text-align: center;
   vertical-align: top;
-  align-items: center;
-  justify-content: center;
 }
 
 .mySkills p {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
 div.flexContainer {
@@ -133,6 +130,7 @@ div.flexContainer {
   padding: 5px;
   margin-top: 10%;
   margin-bottom: 10%;
+  align-items: center;
 }
 
 .mySkills h1 {
@@ -174,7 +172,7 @@ div#DOE {
 .myWork p {
   display: inline-block;
   width: 30%;
-  align-items: center;
+  text-align: center;
 }
 
 .myWork h4 {
@@ -195,6 +193,11 @@ div#DOE {
   color: darkslateblue;
   font-size: 3pc;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.myWork h2 {
+  margin-bottom: 10%;
   text-align: center;
 }
 
