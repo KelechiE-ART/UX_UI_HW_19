@@ -121,6 +121,9 @@ body {
 .mySkills p {
   display: flex;
   flex-direction: row;
+  margin-left: 5pc;
+  align-items: center;
+  justify-content: center;
 }
 
 div.flexContainer {
@@ -148,6 +151,7 @@ div.flexContainer {
   flex-direction: rows; 
   grid-area: workGrid;
 }
+
 .workGrid {
   margin: 0px 5;
   grid-template-rows: 300px 300px 300px;
@@ -157,6 +161,7 @@ div.flexContainer {
     "TravelBound Artverse DOE"
     ;
 }
+
 div#TravelBound {
     grid-area: TravelBound;
 }
@@ -170,9 +175,11 @@ div#DOE {
 }
 
 .myWork p {
-  display: inline-block;
+  display: flex;
   width: 30%;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15pc;
 }
 
 .myWork h4 {
@@ -180,7 +187,11 @@ div#DOE {
   color: slateblue;
   font-size: 2pc;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15pc;
 }
+
 .myWork button {
   display: flex;
   align-items: center;
