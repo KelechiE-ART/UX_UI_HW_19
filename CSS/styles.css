@@ -56,6 +56,10 @@ body {
 }
 
 .logo h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
   color: midnightblue;
@@ -88,14 +92,15 @@ body {
 .box {
   display: flex;
   float: inline-start; 
-  background-color: grey;
+  /* background-image: url(../Images/moon\ view.png); --> */
+  background-color: gray;
   height: 300px;
   width: 300px;
   transform: translate(150%, -160%);
   align-content: center;
 }
 
-<!--  My UX Skills section coded using CSS flex --
+/*  My UX Skills section coded using CSS flex */
 
 .mySkills h2 {
   margin-top: 10%;
@@ -145,7 +150,7 @@ div.flexContainer {
   text-align: center;
 }
 
-    <!-- My Work Section Constructed using CSS Grid --
+ /* My Work Section Constructed using CSS Grid */
 
 .myWork {
   flex-direction: rows; 
@@ -227,5 +232,24 @@ div#DOE {
        "Artverse"
        "DOE"
       ;
+  }
+}
+
+.preload img {
+  animation: spin 3s ease;
+  transition: all;
+  width: 0 auto px;
+  margin: 0 auto;
+}
+
+@keyframes preload {
+  0% {
+    transform: rotate(0deg);
+  }
+ 50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
   }
 }
