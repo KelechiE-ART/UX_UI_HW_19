@@ -235,14 +235,15 @@ div#DOE {
   }
 }
 
-.preload img {
+.Preload img {
+  background-color: white;
   animation: spin 3s ease;
   transition: all;
   width: 0 auto px;
   margin: 0 auto;
 }
 
-@keyframes preload {
+@keyframes spin {
   0% {
     transform: rotate(0deg);
   }
