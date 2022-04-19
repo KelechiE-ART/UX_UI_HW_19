@@ -11,20 +11,17 @@ $(".card").click(function() {
 });
 
 ScrollReveal().reveal('.Examples', {
-    delay: 375,
-    duration: 500,
+    delay: 500,
     reset: true
 });
 
 ScrollReveal().reveal('.mySkills', {
-    delay: 375,
-    duration: 500,
+    delay: 500,
     reset: true
 });
 
 ScrollReveal().reveal('.myWork', {
-    delay: 375,
-    duration: 500,
+    delay: 500,
     reset: true
 });
 
