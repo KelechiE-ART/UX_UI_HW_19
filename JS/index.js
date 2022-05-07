@@ -39,4 +39,4 @@ ScrollReveal().reveal('.myWork', {
 function fade() {
     $('.Preload').fadeOut("slow");
 }
-    setTimeout(fade, 3000);
+setTimeout(fade, 3000);
