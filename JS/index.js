@@ -37,6 +37,6 @@ ScrollReveal().reveal('.myWork', {
 });
 
 function fade() {
-    $('.Preload').fadeOut("slow");
+    $('.preload').fadeOut("slow");
 }
 setTimeout(fade, 3000);
