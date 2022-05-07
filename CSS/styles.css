@@ -246,7 +246,7 @@ div#DOE {
   align-items: center;
 }
 
-.Preload img {
+/* .Preload img {
   animation: spin 3s ease;
   transition: all;
   width: 150px;
@@ -263,7 +263,7 @@ div#DOE {
   100% {
     transform: rotate(720deg);
   }
-}
+} */
 
 .Stars {
   width: 100%;
