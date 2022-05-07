@@ -235,7 +235,7 @@ div#DOE {
   }
 }
 
-.Preload {
+/* .Preload {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -251,8 +251,7 @@ div#DOE {
   transition: all;
   width: 150px;
   margin: 0 auto;
-}
-
+} 
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -263,7 +262,8 @@ div#DOE {
   100% {
     transform: rotate(720deg);
   }
-}
+}*/
+
 
 .Stars {
   width: 100%;
